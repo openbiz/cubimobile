@@ -20,14 +20,14 @@ http://code.google.com/p/openbiz-cubi/ for more information about Cubi platform.
 Installation
 ************
 
-1. Pull the latest source code from http://code.google.com/p/openbiz-cubi/source/checkout.
+-  Pull the latest source code from http://code.google.com/p/openbiz-cubi/source/checkout.
 Install Openbiz Cubi by following instruction at http://code.google.com/p/openbiz-cubi/wiki/CubiInstallation
-2. Install mobile modules. Copy user_mob and contact_mob under cubi/modules/ directory
-3. Install mobile theme. Copy touch under cubi/themes/ directory
-4. Load user_mob and contact_mob modules by using cubi/bin/tools/load_module.php
+-  Install mobile modules. Copy user_mob and contact_mob under cubi/modules/ directory
+-  Install mobile theme. Copy touch under cubi/themes/ directory
+-  Load user_mob and contact_mob modules by using cubi/bin/tools/load_module.php
 # php load_module.php user_mob
 # php load_module.php contact_mob
-5. Hit your url from either iPhone or Android phone, or their native simulators. 
+-  Hit your url from either iPhone or Android phone, or their native simulators. 
 If you want to test it on your desktop browser, you can chang useragent to iphone or android with browser developer tool,
 such as Firefox Modify Header https://addons.mozilla.org/en-US/firefox/addon/modify-headers/
 
